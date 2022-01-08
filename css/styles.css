@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--darkMain);
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.container .box {
+  margin: 7rem 0 7rem 0;
+  height: 40rem;
+  border-radius: 0.8rem;
+  background: var(--darkCard);
+  box-shadow: 0px 50px 91px 3px rgba(0, 0, 0, 0.2);
+}
+.container .box .image {
+  margin: 2rem;
+  max-width: 19.8rem;
+  border-radius: 0.5rem;
+}
+.container .box h1 {
+  padding: 0 0 1rem 1.3rem;
+  color: var(--White);
+}
+.container .box p {
+  max-width: 19rem;
+  padding: 0 0 1.2rem 1.5rem;
+  color: var(--Soft-blue);
+}
+.container .box .countdown, .container .box li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  color: var(--Cyan);
+}
+.container .box .countdown:nth-child(2), .container .box li:nth-child(2) {
+  color: var(--Soft-blue);
+}
+.container .box .countdown span, .container .box li span {
+  color: var(--White);
+}
+.container .box .countdown img, .container .box li img {
+  padding-right: 0.5rem;
+}
+.container .box .countdown {
+  margin: 0 1.5rem 0 1.5rem;
+  border-bottom: 1px solid var(--darkLine);
+}
+.container .box .creator, .container .box li {
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+.container .box .creator .avatar, .container .box li .avatar {
+  position: absolute;
+  float: left;
+  margin: 0.5rem 0 0 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid var(--White);
+  border-radius: 100%;
+}
+.container .box .creator p, .container .box li p {
+  padding: 1.5rem 0 0 4rem;
+}
+
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --darkMain: hsl(217, 54%, 11%);
+  --darkCard: hsl(216, 50%, 16%);
+  --darkLine: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    justify-content: center;
+    // border: 1px solid red;
+
+    .box {
+        margin: 7rem 0 7rem 0;
+        height: 40rem;
+        border-radius: 0.8rem;
+        background: var(--darkCard);
+        box-shadow: 0px 50px 91px 3px rgb(0 0 0 / 20%);
+
+
+        // border: 1px solid red;
+
+        .image {
+             margin: 2rem;
+             max-width: 19.8rem;
+             border-radius: 0.5rem;
+            //  border: 1px solid red;
+        }
+
+        h1 {
+            padding: 0 0 1rem 1.3rem;
+            color: var(--White);
+        }
+        p {
+            max-width: 19rem;
+            padding: 0 0 1.2rem 1.5rem;
+            color: var(--Soft-blue)
+        }
+
+        .countdown, li {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0.5rem 0.5rem 0.5rem;
+            color: var(--Cyan);
+
+
+            &:nth-child(2) {
+                color: var(--Soft-blue);
+             }
+
+            span {
+                // font-size: 1rem;
+                color: var(--White);
+            }
+
+            img {
+                padding-right: 0.5rem;
+            }
+        }
+
+        .countdown {
+            margin: 0 1.5rem 0 1.5rem;
+            border-bottom: 1px solid var(--darkLine);
+        }
+
+
+        .creator, li {
+            display: flex;
+            font-size: 15px;
+            align-items: center;
+
+            .avatar {
+                position: absolute;
+                float: left;
+                margin: 0.5rem 0 0 1.5rem;
+                width: 2rem;
+                height: 2rem;
+                border: 1px solid var(--White);
+                border-radius: 100%;
+            }
+
+            p {
+                padding: 1.5rem 0 0 4rem;
+                // border: 1px solid red;     
+            }
+        }
+    }
+}
+
